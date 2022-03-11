@@ -223,13 +223,11 @@
       "@jupyterlab/help-extension": "",
       "@jupyterlab/htmlviewer-extension": "",
       "@jupyterlab/hub-extension": "",
-      "@jupyterlab/imageviewer-extension": "",
       "@jupyterlab/inspector-extension": "",
       "@jupyterlab/launcher-extension": "",
       "@jupyterlab/logconsole-extension": "",
       "@jupyterlab/mainmenu-extension": "",
       "@jupyterlab/markdownviewer-extension": "",
-      "@jupyterlab/mathjax2-extension": "",
       "@jupyterlab/notebook-extension": "",
       "@jupyterlab/rendermime-extension": "",
       "@jupyterlab/running-extension": "",
@@ -243,13 +241,10 @@
       "@jupyterlab/tooltip-extension": "",
       "@jupyterlab/translation-extension": "",
       "@jupyterlab/ui-components-extension": "",
-      "@jupyterlab/vdom-extension": ""
     },
     "mimeExtensions": {
       "@jupyterlab/javascript-extension": "",
-      "@jupyterlab/json-extension": "",
-      "@jupyterlab/pdf-extension": "",
-      "@jupyterlab/vega5-extension": ""
+      "@jupyterlab/json-extension": ""
     },
     "externalExtensions": {},
     "buildDir": "./build",
