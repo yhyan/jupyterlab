@@ -240,7 +240,7 @@
       "@jupyterlab/toc-extension": "",
       "@jupyterlab/tooltip-extension": "",
       "@jupyterlab/translation-extension": "",
-      "@jupyterlab/ui-components-extension": "",
+      "@jupyterlab/ui-components-extension": ""
     },
     "mimeExtensions": {
       "@jupyterlab/javascript-extension": "",
