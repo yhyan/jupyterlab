@@ -55,5 +55,23 @@ def main():
         dot.view(filename=f)
         print("finish %s" % f)
 
+def search(k):
+    ff = os.listdir(package_dir)
+    for f in ff:
+        if f == "metapackage":
+            continue
+        json_file = os.path.join(package_dir, f, "package.json")
+        with open(json_file) as fp:
+            data = json.loads(fp.read())
+        deps = list(data['dependencies'].keys())
+        for dep in deps:
+            if k in dep:
+                print(f)
+                break
+
+
+
 if __name__ == "__main__":
-    main()
+    # main()
+    # search('blueprint')
+    search('ui-com')

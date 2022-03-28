@@ -211,6 +211,7 @@
       "@jupyterlab/celltags-extension": "",
       "@jupyterlab/codemirror-extension": "",
       "@jupyterlab/completer-extension": "",
+      "@jupyterlab/console-extension": "",
       "@jupyterlab/debugger-extension": "",
       "@jupyterlab/docmanager-extension": "",
       "@jupyterlab/docprovider-extension": "",
