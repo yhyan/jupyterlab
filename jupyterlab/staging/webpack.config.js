@@ -298,7 +298,7 @@ module.exports = [
       alias: {
         '@jupyterlab/application$': require.resolve(path.resolve('../../packages/application')),
         '@jupyterlab/application-extension$': require.resolve(path.resolve('../../packages/application-extension')),
-'@jupyterlab/apputils$': require.resolve(path.resolve('../../packages/apputils')),
+        '@jupyterlab/apputils$': require.resolve(path.resolve('../../packages/apputils')),
 '@jupyterlab/apputils-extension$': require.resolve(path.resolve('../../packages/apputils-extension')),
 '@jupyterlab/attachments$': require.resolve(path.resolve('../../packages/attachments')),
 '@jupyterlab/cells$': require.resolve(path.resolve('../../packages/cells')),
