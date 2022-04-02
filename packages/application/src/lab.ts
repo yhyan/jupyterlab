@@ -139,6 +139,7 @@ export class JupyterLab extends JupyterFrontEnd<ILabShell> {
     }
     data.forEach(item => {
       try {
+        console.log("register module: " + mod + ", plugin: " + item);
         this.registerPlugin(item);
       } catch (error) {
         this.registerPluginErrors.push(error);
