@@ -5,7 +5,7 @@ import os
 import json
 from collections import defaultdict
 import queue
-import graphviz
+#import graphviz
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 package_dir = os.path.join(HERE, "packages")
@@ -13,6 +13,7 @@ package_dir = os.path.join(HERE, "packages")
 
 
 def main():
+    import graphviz
     ff = os.listdir(package_dir)
     d = defaultdict(set)
     for f in ff:
@@ -60,6 +61,8 @@ def search(k):
     for f in ff:
         if f == "metapackage":
             continue
+        if not os.path.isdir(os.path.join(package_dir, f)):
+            continue
         json_file = os.path.join(package_dir, f, "package.json")
         with open(json_file) as fp:
             data = json.loads(fp.read())
@@ -74,4 +77,7 @@ def search(k):
 if __name__ == "__main__":
     # main()
     # search('blueprint')
-    search('ui-com')
+    import sys
+
+    search(input().strip())
+
