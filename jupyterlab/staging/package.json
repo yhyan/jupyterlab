@@ -232,7 +232,6 @@
       "@jupyterlab/statusbar-extension": "",
       "@jupyterlab/theme-dark-extension": "",
       "@jupyterlab/theme-light-extension": "",
-      "@jupyterlab/toc-extension": "",
       "@jupyterlab/tooltip-extension": "",
       "@jupyterlab/translation-extension": "",
       "@jupyterlab/ui-components-extension": ""
