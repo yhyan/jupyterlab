@@ -55,12 +55,6 @@
       "path": "../coreutils"
     },
     {
-      "path": "../csvviewer"
-    },
-    {
-      "path": "../csvviewer-extension"
-    },
-    {
       "path": "../debugger"
     },
     {
@@ -86,12 +80,6 @@
     },
     {
       "path": "../documentsearch-extension"
-    },
-    {
-      "path": "../extensionmanager"
-    },
-    {
-      "path": "../extensionmanager-extension"
     },
     {
       "path": "../filebrowser"
@@ -130,12 +118,6 @@
       "path": "../inspector-extension"
     },
     {
-      "path": "../javascript-extension"
-    },
-    {
-      "path": "../json-extension"
-    },
-    {
       "path": "../launcher"
     },
     {
@@ -154,18 +136,6 @@
       "path": "../mainmenu-extension"
     },
     {
-      "path": "../markdownviewer"
-    },
-    {
-      "path": "../markdownviewer-extension"
-    },
-    {
-      "path": "../mathjax2"
-    },
-    {
-      "path": "../mathjax2-extension"
-    },
-    {
       "path": "../nbformat"
     },
     {
@@ -179,9 +149,6 @@
     },
     {
       "path": "../outputarea"
-    },
-    {
-      "path": "../pdf-extension"
     },
     {
       "path": "../property-inspector"
@@ -229,22 +196,10 @@
       "path": "../statusbar-extension"
     },
     {
-      "path": "../terminal"
-    },
-    {
-      "path": "../terminal-extension"
-    },
-    {
       "path": "../theme-dark-extension"
     },
     {
       "path": "../theme-light-extension"
-    },
-    {
-      "path": "../toc"
-    },
-    {
-      "path": "../toc-extension"
     },
     {
       "path": "../tooltip"
@@ -263,15 +218,6 @@
     },
     {
       "path": "../ui-components-extension"
-    },
-    {
-      "path": "../vdom"
-    },
-    {
-      "path": "../vdom-extension"
-    },
-    {
-      "path": "../vega5-extension"
     }
   ]
 }
